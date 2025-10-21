@@ -1,0 +1,16 @@
+{
+  "name": "usco-edu-check",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": { "version": "3.11" }
+  },
+  "postCreateCommand": "pip install -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "github.copilot",
+        "github.copilot-chat"
+      ]
+    }
+  }
+}
